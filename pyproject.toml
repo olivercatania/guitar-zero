@@ -1,0 +1,11 @@
+[project]
+name = "guitar-zero"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "basic-pitch>=0.4.0",
+    "fastapi[standard]>=0.135.3",
+    "python-multipart>=0.0.26",
+]
